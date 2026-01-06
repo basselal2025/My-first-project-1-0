@@ -1107,13 +1107,19 @@ select {
     display: none;
   }
   .pagination__info {
-    display: flex;
-    gap: 10px;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-
-    flex-wrap: wrap;
+          display: flex;
+        gap: 10px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px;
+        margin-top: 10px;
+  }
+  select {
+        left: 0;
+    position: relative;
+    transform: translateX(0%);
   }
   .scroll-top::before {
     display: none;
@@ -1180,9 +1186,11 @@ select {
   }
 
   .widget__icons {
-    position: relative;
-
-    left: -85px;
+        position: relative;
+   
+        transform: translatex(-50%);
+        left: 0;
+        margin: 0;
   }
 
   .nav-bar {
